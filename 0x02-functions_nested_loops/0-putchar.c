@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -5,7 +6,7 @@
  * Description: It prints the word _putchar, followed by a new line.
  * Return: 0.
  */
-int main( )
+int main(void)
 {
 	char var[8] = "_putchar";
 	int i;
@@ -14,5 +15,5 @@ int main( )
 		putchar(var[i]);
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
