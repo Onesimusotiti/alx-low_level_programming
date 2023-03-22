@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Check description
@@ -12,8 +11,8 @@ int main( )
 	int i;
 
 	for (i = 0; i < 8; i++)
-		_putchar(var[i]);
-	_putchar('\n');
+		putchar(var[i]);
+	putchar('\n');
 
-	return (0);
+	return 0;
 }
